@@ -1,0 +1,88 @@
+#logo {
+    height: 100px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.header {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;  
+}
+
+.Titre {
+    color: #FFFFFF;
+    font-size: 50px;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(#2980B9, #6DD5FA, #FFFFFF);
+    text-align: center;  
+}
+
+.soustitre {
+    font-size: 30px;
+}
+
+p {
+    font-size: 1em;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+
+.footer-contenu {
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-around;
+    font-size: 25px;
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+
+.Caroussel {
+    width: 512px;
+    overflow: hidden;
+    border: 2px solid #333;
+}
+
+.image {
+    display: flex;
+    animation-duration: 20s;
+    animation-name: imageMustang;
+    animation-iteration-count: infinite;
+}
+
+@keyframes imageMustang {
+    0% {
+        transform: translateX(0);
+    }
+    17% {
+        transform: translateX(-512px);
+    }
+    33% {
+        transform: translateX(-1024px);
+    }
+    49% {
+        transform: translateX(-1536px);
+    }
+    66% {
+        transform: translateX(-2048px);
+    }
+    83% {
+        transform: translateX(-2560px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
