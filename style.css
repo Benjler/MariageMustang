@@ -19,7 +19,6 @@ h1 {
 .Titre {
     color: #FFFFFF;
     font-size: 50px;
-    text-align: center;
 }
 
 body {
@@ -29,6 +28,14 @@ body {
 
 .soustitre {
     font-size: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.soustitreContact {
+    font-size: 30px;
+    margin-top: 30px;
 }
 
 p {
@@ -36,7 +43,6 @@ p {
     margin-right: 200px;
     margin-left: 200px;
 }
-
 
 .footer-contenu {
     display: flex;
@@ -47,6 +53,31 @@ p {
     padding: 0;
 }
 
+.conteneur {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.bloc {
+    background-color: rgb(148, 187, 6);
+    margin-right: 50px;
+    margin-left: 50px;
+    width: 270px;
+    height: 370px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+}
+
+.pbloc {
+    margin :2px;
+    width: 220px;
+}
 
 
 
@@ -86,3 +117,7 @@ p {
         transform: translateX(0);
     }
 }
+
+
+
+
